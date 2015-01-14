@@ -28,7 +28,7 @@ It runs on port 9000 in a localhost, but you can check it on Github pages
 
 http://derruba2000.github.io/miniApp
 
-This project is configured for travis CI check please .travis.yml file
+This project is configured for travis CI check please .travis.yml file and the respective jobs at https://travis-ci.org/derruba2000/miniApp
 
 
 
