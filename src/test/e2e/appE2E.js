@@ -26,10 +26,10 @@ describe('miniApp Integration Tests', function(){
     });
     
     
-    it('Expected to go wrong', function(){
+    it('Expected to go fail', function(){
         sleep(0.5);
         var output = browser().location().path();
-        expect(output).toBe('/');
+        expect(output).not.toBe('/');
     });
     
 });
