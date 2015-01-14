@@ -58,7 +58,7 @@ module.exports = function(config) {
       
     // Proxies
     proxies: {
-        '/': 'http://derruba2000.github.io/miniApp'
+        '/': 'http://0.0.0.0:9000'
     },
 
     urlRoot : '/_karma_/',
