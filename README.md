@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/derruba2000/miniApp.svg?branch=master)](https://travis-ci.org/derruba2000/miniApp)
 # miniApp
 ##D3.js Angular Example APP
 
