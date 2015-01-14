@@ -16,6 +16,6 @@
     "karma-phantomjs-launcher": "^0.1.4"
   },
   "scripts": {
-    "test": "chmod +x launch.sh | launch.sh"
+    "test": "grunt start | grunt karma"
   }
 }
