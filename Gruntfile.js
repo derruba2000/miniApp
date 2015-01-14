@@ -45,10 +45,17 @@ module.exports = function(grunt) {
     }
   });
 
+    grunt.task.registerMultiTask('log', 'Log stuff.', function() {
+  grunt.log.writeln(this.target + ': ' + this.data);
+});
+    
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-karma');
+  grunt.loadNpmTasks('grunt-shell');
+  
+    
   grunt.registerTask('build', ['copy']);
   grunt.registerTask('start', ['clean', 'build','connect']);
   grunt.registerTask('UnitTest', ['karma:unit']);

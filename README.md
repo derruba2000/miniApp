@@ -17,7 +17,7 @@ Install node.js first then go to your github clone and
 ```
 
 ###For integration (E2E) tests:
-(Google Chrome configured)
+(PhantomJS configured)
 ``` shell
  grunt karma:e2e
 ```

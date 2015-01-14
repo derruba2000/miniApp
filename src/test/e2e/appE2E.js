@@ -29,7 +29,7 @@ describe('miniApp Integration Tests', function(){
     it('Expected to go fail', function(){
         sleep(0.5);
         var output = browser().location().path();
-        expect(output).not.toBe('/');
+        expect(value(output)).not().toBe('/example1');
     });
     
 });
