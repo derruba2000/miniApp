@@ -19,12 +19,6 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-        
-      /* 'lib/**./*.js',
-       'scripts/**./*.js',
-       'views/**./*.html',
-       'app.js',
-       'index.html',*/
        'test/e2e/**/*.js'
     ],
 
@@ -71,7 +65,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Chrome_without_security'],
+    browsers: ['Chrome'],
       
     // plugins
     plugins:['karma-chrome-launcher', 'karma-ng-scenario'

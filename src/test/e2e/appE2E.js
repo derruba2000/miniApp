@@ -24,4 +24,12 @@ describe('miniApp Integration Tests', function(){
         var output = browser().location().path();
         expect(value(output)).toBe('/');
     });
+    
+    
+    it('Expected to go wrong', function(){
+        sleep(0.5);
+        var output = browser().location().path();
+        expect(output).toBe('/');
+    });
+    
 });
