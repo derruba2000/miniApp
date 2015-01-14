@@ -3,6 +3,12 @@
 
 Just a small AngularJS project with a directive using d3.js. No CSS applied.
 
+###Installation
+Install node.js first then go to your github clone and
+``` shell
+ npm install
+```
+
 
 ###For unit tests:
 (PhantomJS configured)
