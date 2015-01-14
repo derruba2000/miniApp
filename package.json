@@ -11,7 +11,8 @@
     "karma": "^0.12.31",
     "karma-chrome-launcher": "^0.1.7",
     "karma-jasmine": "^0.3.4",
-    "karma-ng-scenario": "^0.1.0"
+    "karma-ng-scenario": "^0.1.0",
+    "karma-phantomjs-launcher": "^0.1.4"
   },
   "scripts":{
     "test": "grunt karma:unit"
