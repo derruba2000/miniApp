@@ -1,20 +1,32 @@
 # miniApp
-D3.js Angular Example APP 
+D3.js Angular Example APP
 
-For unit tests
+Just a small AngularJS project with a directive using d3.js. No CSS applied.
+
+
+PhantomJS is configured for unit tests:
+
 $ grunt karma:unit
 
-For integration  (E2E) tests
+
+Google Chrome is configured for integration (E2E) tests:
+
 $ grunt karma:e2e
 
-For starting
+
+For starting a local server:
+
 $ grunt start
 
-It runs on port 9000 in a localhost, but you can check it in Github pages
+no watch and livereload tasks configured (Windows 8.1 Professional Issues)
+
+
+
+It runs on port 9000 in a localhost, but you can check it on Github pages
 
 http://derruba2000.github.io/miniApp
 
-It is configured for travis CI check  please .travis.yml file
+This project is configured for travis CI check please .travis.yml file
 
 
 
