@@ -19,7 +19,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-       'test/e2e/**/*.js'
+       'test/e2e/karma/**/*.js'
     ],
 
 
@@ -58,7 +58,7 @@ module.exports = function(config) {
       
     // Proxies
     proxies: {
-        '/': 'http://0.0.0.0:9000'
+        '/': 'http://127.0.0.1:9000'
     },
 
     urlRoot : '/_karma_/',

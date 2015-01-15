@@ -17,11 +17,19 @@ Install node.js first then go to your github clone and
  grunt karma:unit
 ```
 
-###For integration (E2E) tests:
+###For integration (E2E) tests with karma:
 (PhantomJS configured)
 ``` shell
  grunt karma:e2e
 ```
+
+###For integration (E2E) tests with protractor:
+(PhantomJS configured)
+``` shell
+ grunt E2ETest_protractor
+```
+
+
 
 ###For starting a local server:
 ``` shell
