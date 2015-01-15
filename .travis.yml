@@ -5,7 +5,7 @@ node_js:
 before_install: npm install -g grunt-cli
 install: npm install
 before_script: grunt start &
-script: grunt karma
+script: grunt E2ETest_protractor
 after_script: kill %%
 
 
