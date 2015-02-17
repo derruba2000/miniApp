@@ -81,8 +81,10 @@ miniApp.controller('tablepageCtrl', function($scope) {
             $scope.channels[rownum-1].Active = true;
     }
     
-    $scope.$watch('channels', function () {
+    $scope.$watch('channels', function (newVal, oldVal) {
        console.log("Something changed in channels");
+       if (newVal.length != oldVal.length) console.log("And it was the array length");
+           
     },true);
     
         
