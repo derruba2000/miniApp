@@ -22,5 +22,10 @@ var miniApp = angular.module('miniApp', ['ngRoute']);
             .when('/example2', {
                 templateUrl : 'views/example2.html',
                 controller  : 'example2Ctrl'
+            })
+            // route for the Table page
+            .when('/tablepage', {
+                templateUrl : 'views/tablepage.html',
+                controller  : 'tablepageCtrl'
             });
     });
